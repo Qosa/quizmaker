@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Show Multiple Form Using Drop down Option - Demo Preview</title>
+        <meta content="noindex, nofollow" name="robots">
+        <!-- Importing Font Family From Google Fonts -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="multipleform.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <br>
+            <h2 style="font-weight: bold">Quizmaker</h2>
+            <br>
+            <div id="selected_form_code" class="jumbotron">
+                <h4>Quiz title:</h4><input type="text" class="form-control"/>
+                <h4>Participants:</h4><input type="text" class="form-control"/>
+                <h4>Choose number of questions(max 5):</h4>
+                <select id="select_btn" class="form-control">
+                    <option value="0">--Select No Of Form to Display for Registration--</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five</option>
+                </select>
+            </div>
+            <div id="form1">
+                <form action="#" id="form_submit" method="post" name="form_submit">
+                 <!-- Dynamic Registration Form Fields Creates Here -->
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
